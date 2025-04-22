@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hasini Solar India Private Limited</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4fdf4;
+      color: #000000;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: #2b2b2b;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2b2b2b;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('photo-1497440001374-f26997328c1b.avif') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+    }
+
+    .hero a {
+      background-color: #4caf50;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .service-item, .project-item {
+      max-width: 300px;
+    }
+
+    .service-item img, .project-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #4caf50;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .email-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @media screen and (max-width: 768px) {
+      .services, .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <img src="logo.png" alt="Hasini Solar Logo" />
+      <h1 style="margin: 10px 0;">HASINI SOLAR INDIA PRIVATE LIMITED</h1>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="mailto:Sanjeevi0123@gmail.com">Email Us</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home" data-aos="zoom-in">
+    <h1>Powering the Future with Clean Solar Energy</h1>
+    <p>We provide sustainable and reliable solar solutions for homes and businesses.</p>
+    <a href="#contact">Get a Free Quote</a>
+  </section>
+
+  <section class="section" id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>Our mission is to revolutionize the energy industry through renewable and clean solar technology.</p>
+    <p>With years of experience, our team is committed to helping you transition to sustainable energy with ease.</p>
+  </section>
+
+  <section class="section" id="services">
+    <h2 data-aos="fade-up">Our Services</h2>
+    <div class="services">
+      <div class="service-item" data-aos="fade-right">
+        <img src="https://www.thespruce.com/thmb/u7XuToMlqropzP0N_EiaQOiREdE=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/Solar-panels-GettyImages-188066505-587574a23df78c17b6e071ca.jpg" alt="Residential Solar Panels" />
+        <h3>Residential Installation</h3>
+        <p>Efficient and affordable solar panels for your home.</p>
+      </div>
+      <div class="service-item" data-aos="fade-up">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.VBmBpOa86XlKW61CArRcjQHaEu?rs=1&pid=ImgDetMain" alt="Commercial Solar Farm" />
+        <h3>Commercial Systems</h3>
+        <p>Custom solar solutions for commercial and industrial needs.</p>
+      </div>
+      <div class="service-item" data-aos="fade-left">
+        <img src="https://specsolar.com.au/wp-content/uploads/SF_Cleaning_2_1000x700.jpg" alt="Solar Panel Maintenance" />
+        <h3>Panel Maintenance</h3>
+        <p>Keep your solar system running at peak performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2 data-aos="fade-up">Recent Projects</h2>
+    <div class="projects">
+      <div class="project-item" data-aos="zoom-in">
+        <img src="projects/projects  (32).jpg" alt="Solar Project 1" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+        <img src="projects/projects  (26).jpg" alt="Solar Project 2" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (2).jpg" alt="Solar Project 3" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (33).jpg" alt="Solar Project 4" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (34).jpg" alt="Solar Project 5" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (37).jpg" alt="Solar Project 6" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (38).jpg" alt="Solar Project 7" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (39).jpg" alt="Solar Project 8" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (13).jpg" alt="Solar Project 9" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (20).jpg" alt="Solar Project 10" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (24).jpg" alt="Solar Project 11" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (14).jpg" alt="Solar Project 12" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (15).jpg" alt="Solar Project 13" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (16).jpg" alt="Solar Project 14" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (1).jpg" alt="Solar Project 15" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (9).jpg" alt="Solar Project 16" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (12).jpg" alt="Solar Project 17" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (8).jpg" alt="Solar Project 18" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (11).jpg" alt="Solar Project 19" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (30).jpg" alt="Solar Project 20" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (37).jpg" alt="Solar Project 21" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (21).jpg" alt="Solar Project 22" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (25).jpg" alt="Solar Project 23" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (28).jpg" alt="Solar Project 24" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (19).jpg" alt="Solar Project 25" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (6).jpg" alt="Solar Project 26" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (10).jpg" alt="Solar Project 27" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (5).jpg" alt="Solar Project 28" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (7).jpg" alt="Solar Project 29" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (3).jpg" alt="Solar Project 30" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (4).jpg" alt="Solar Project 31" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (31).jpg" alt="Solar Project 32" />
+      </div>
+      <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="projects/projects  (35).jpg" alt="Solar Project 33" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="solarpro-features" data-aos="fade-up">
+    <h2>Why Choose SolarPro?</h2>
+    <div class="services" style="margin-top: 40px;">
+      <div class="service-item" data-aos="fade-right">
+        <img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Eco-friendly">
+        <h3>Eco-Friendly Solutions</h3>
+        <p>Reduce your carbon footprint with clean, renewable energy solutions.</p>
+      </div>
+      <div class="service-item" data-aos="fade-up">
+        <img src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cost Savings">
+        <h3>Cost Savings</h3>
+        <p>Significant reduction in energy bills with solar power installation.</p>
+      </div>
+      <div class="service-item" data-aos="fade-left">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Expert Installation">
+        <h3>Expert Installation</h3>
+        <p>Professional installation by certified solar experts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>Reach out today and we will get back to you soon.</p>
+    <div class="contact-form">
+      <form action="mailto:Sanjeevi0123@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Your Phone Number" />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div style="margin-top: 30px;">
+      <p>Email: <a href="mailto:Sanjeevi0123@gmail.com">Sanjeevi0123@gmail.com</a></p>
+      <p>Phone: +91 93924 59295</p>
+
+      <div style="margin-top: 30px;">
+        <h3>Our Address</h3>
+        <p>19-1-432/98, Sri Prasannanjaneya Nagar,</p>
+        <p>Kakinada District, Andhra Pradesh,</p>
+        <p>Peddapuram - 533437</p>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps?q=19-1-432/98,%20Sri%20Prasannanjaneya%20Nagar,%20Peddapuram%20-%20533437&output=embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <a class="email-float" href="mailto:Sanjeevi0123@gmail.com">&#9993;</a>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Hasini Solar India Private Limited. All rights reserved.</p>
+
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
